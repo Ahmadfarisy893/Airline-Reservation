@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="d-grid gap-2 col-lg-10 mx-auto">
-        <button class="btn btn-primary btn-lg" type="button" >Button</button>
+        <button class="btn btn-primary btn-lg" type="button" >Daftar</button>
       </div>
 
     </form>
