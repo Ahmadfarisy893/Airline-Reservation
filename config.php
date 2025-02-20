@@ -7,4 +7,9 @@ $database = "airline_reservation";
 $conn = mysqli_connect($host, $username, $password, $database);
 
 // cek apkah berhasil terkoneksi
+if ($conn->connect_error) {
+    // Menampilkan pesan ini jika gagal terkoneksi
+    die("Database gagal terkoneksi: " . $conn->connect_error);
+    
+}
 ?>
