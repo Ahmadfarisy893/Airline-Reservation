@@ -12,22 +12,18 @@
     <!-- /Logo -->
     <form action="register_process.php" class="mb-3" method="POST">
       <div class="mb-3">
-        <label for="username" class="form-label">Username</label>
-        <input type="text" class="form-control" name="username" placeholder="Masukkan Username" autofocus/>
-      </div>
-      <div class="mb-3">
         <label for="email" class="form-label">Nama</label>
         <input type="text" class="form-control" name="name" placeholder="Masukkan Nama" />
       </div>
-      <div class="mb-3 form-password-toggle">
-        <label class="form-label" for="password">Password</label>
-        <div class="input-group input-group-merge">
-          <input type="password" class="form-control" name="password"
-          placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
-          <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+      <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email">
         </div>
       </div>
-      <button class="btn btn-primary d-grid w-100">Daftar</button>
+      <div class="d-grid gap-2 col-lg-10 mx-auto">
+        <button class="btn btn-primary btn-lg" type="button" >Button</button>
+      </div>
+
     </form>
     <p class="text-center">
       <span>Sudah memiliki akun?</span><a href="login.php"><span> Masuk</span></a>
