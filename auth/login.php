@@ -128,13 +128,13 @@
 
               <form id="formAuthentication" class="mb-3" action="login_auth.php" method="POST">
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email or Username</label>
+                  <label for="username" class="form-label">Username</label>
                   <input
                     type="text"
                     class="form-control"
-                    id="email"
-                    name="email-username"
-                    placeholder="Enter your email or username"
+                    id="username"
+                    name="username"
+                    placeholder="Enter your username"
                     autofocus
                   />
                 </div>
