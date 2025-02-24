@@ -6,7 +6,19 @@ navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
       <i class="bx bx-menu bx-sm"></i>
     </a>
   </div>
-  <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+  <div class="navbar-nav-right d-flex align-items-center w-100" id="navbar-collapse">
+    <!-- Search -->
+    <div class="navbar-nav align-items-center w-100">
+      <div class="nav-item d-flex align-items-center">
+        <i class="bx bx-search fs-4 lh-0"></i>
+          <input
+          type="text"
+          class="form-control border-0 shadow-none"
+          placeholder="Search..."
+          aria-label="Search..."
+          style="min-width: 200px; width: 25vw"
+          />
+    </div>
     <ul class="navbar-nav flex-row align-items-center ms-auto">
       <!-- User -->
       <li class="nav-item navbar-dropdown dropdown-user dropdown">
@@ -24,15 +36,28 @@ navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
                     <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                   </div>
                 </div>
+                <!-- nama ini hanya sementara! ganti ini ketika fitur login dah selesai -->
                 <div class="flex-grow-1">
-                  <span class="fw-semibold d-block"><?php echo $nama; ?></span>
-                  <small class="text-muted"><?php echo $email; ?></small>
+                    <span class="fw-semibold d-block">Nama</span>
+                    <small class="text-muted">email</small>
                 </div>
               </div>
             </a>
           </li>
           <li>
             <div class="dropdown-divider"></div>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">
+            <i class="bx bx-user me-2"></i>
+              <span class="align-middle">My Profile</span>
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">
+            <i class="bx bx-cog me-2"></i>
+              <span class="align-middle">Settings</span>
+            </a>
           </li>
           <li>
             <a class="dropdown-item" href="auth/logout.php">
@@ -47,3 +72,5 @@ navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
   </div>
 </nav>
 <!-- / Navbar -->
+
+<!-- HARUS DIKEMBANGKAN LAGI! tampilan pada HP masih berantakan -->
