@@ -38,8 +38,8 @@ navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
                 </div>
                 <!-- nama ini hanya sementara! ganti ini ketika fitur login dah selesai -->
                 <div class="flex-grow-1">
-                    <span class="fw-semibold d-block">Nama</span>
-                    <small class="text-muted">email</small>
+                    <span class="fw-semibold d-block">John Doe</span>
+                    <small class="text-muted">Admin</small>
                 </div>
               </div>
             </a>
