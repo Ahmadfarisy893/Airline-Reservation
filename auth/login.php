@@ -128,20 +128,19 @@
 
               <form id="formAuthentication" class="mb-3" action="login_auth.php" method="POST">
                 <div class="mb-3">
-                  <label for="username" class="form-label">Username</label>
+                  <label for="email" class="form-label">Email or Username</label>
                   <input
                     type="text"
                     class="form-control"
-                    id="username"
-                    name="username"
-                    placeholder="Enter your username"
+                    id="email"
+                    name="email-nama"
+                    placeholder="Enter your email or username"
                     autofocus
                   />
                 </div>
                 <div class="mb-3 form-password-toggle">
                   <div class="d-flex justify-content-between">
                     <label class="form-label" for="password">Password</label>
-              
                   </div>
                   <div class="input-group input-group-merge">
                     <input
@@ -178,6 +177,7 @@
         </div>
       </div>
     </div>
+
 
     <!-- / Content -->
 
