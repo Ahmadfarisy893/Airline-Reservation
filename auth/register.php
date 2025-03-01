@@ -138,7 +138,10 @@
                     autofocus
                   />
                 </div>
-                
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" />
+                </div>
                 <div class="mb-3 form-password-toggle">
                   <label class="form-label" for="email">Email</label>
                   <div class="input-group input-group-merge">
