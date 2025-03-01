@@ -43,8 +43,8 @@ include '.includes/toast_notification.php';
             </div>
           </div>
 
-
-            <div class="container">
+          <div class="container">
+              <h1 class="text-center py-3">Dalam Negeri</h1>
               <div class="row">
               <div class="col-md-6 col-lg-4 mb-3">
                 <div class="card h-100">
@@ -82,6 +82,7 @@ include '.includes/toast_notification.php';
                     </div>
                 </div>
               </div>
+              <h1 class="text-center py-3">Luar Negeri</h1>
               <div class="col-md-6 col-lg-4 mb-3">
                 <div class="card h-100">
                   <img class="card-img-top" src="assets/img/elements/2.jpg" alt="Card image cap" />
