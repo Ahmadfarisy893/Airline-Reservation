@@ -6,9 +6,10 @@ session_start();
 if($_SERVER["REQUEST_METHOD"] == "POST") {
     $nama = $_POST["nama"];
     $email = $_POST["email"];
+    $password = $_POST["password"];
 
-    $sql = "INSERT INTO penumpang (nama, email)
-    VALUES ('$nama','$email')";
+    $sql = "INSERT INTO penumpang (nama, email, password)
+    VALUES ('$nama','$email','$password')";
     if ($conn->query($sql) === TRUE){
         $_SESSION['notification'] = [
             'type' => 'primary',

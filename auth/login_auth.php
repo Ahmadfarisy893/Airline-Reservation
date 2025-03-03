@@ -3,26 +3,26 @@ session_start();
 require_once("../config.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nama = $_POST["nama"];
+    $nama = $_POST['nama'];
     $email = $_POST["email"];
+    $password = $_POST["password"];
 
-    $sql = "SELECT * FROM penumpang WHERE nama='$nama'";
+    $sql = "SELECT * FROM penumpang WHERE email='$email'";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
 
-        if (password_verify($email, $row["email"])) {
-            $_SESSION["nama"] = $nama;
-            $_SESSION["penumpang_id"] = $row["penumpang_id"];
-
-        }
+        if (isset($password, $row["password"])) {
+        $_SESSION["penumpang_id"] = $row['penumpang_id'];
+        $_SESSION["nama"] = $row["nama"];
+        $_SESSION["email"] = $row["email"];
     
-    $_SESSION['notification'] = [
-        'type' => 'primary',
-        'message' => 'Selamat datang!'
-    ];
-    header('Location: ../kategori.php');
+        $_SESSION['notification'] = [
+            'type' => 'primary',
+            'message' => 'Selamat datang!'
+        ];
+    header('Location: ../dashboard.php');
     exit();
     
     } else {
@@ -32,6 +32,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ];
     }
 
+    } else { 
+        $_SESSION['notification'] = [
+            'type' => 'danger',
+            'message' => 'username atau password salah'
+        ];
+    }
     header('Location: login.php');
     exit();
 }

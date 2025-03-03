@@ -128,27 +128,29 @@
 
               <form id="formAuthentication" class="mb-3" action="login_auth.php" method="POST">
                 <div class="mb-3">
-                  <label for="username" class="form-label">Nama</label>
+                  <label for="email" class="form-label">Email</label>
                   <input
                     type="text"
                     class="form-control"
-                    id="nama"
-                    name="nama"
-                    placeholder="Enter your name"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
                     autofocus
                   />
                 </div>
                 <div class="mb-3 form-password-toggle">
                   <div class="d-flex justify-content-between">
-                    <label class="form-label" for="email">Email</label>
-              
+                    <label class="form-label" for="password">Password</label>
+                    <a href="forgot_password.php">
+                      <small>Forgot Password?</small>
+                    </a>
                   </div>
                   <div class="input-group input-group-merge">
                     <input
-                      type="email"
-                      id="email"
+                      type="text"
+                      id="password"
                       class="form-control"
-                      name="email"
+                      name="password"
                       placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
                       aria-describedby="password"
                     />
@@ -178,6 +180,7 @@
         </div>
       </div>
     </div>
+
 
     <!-- / Content -->
 

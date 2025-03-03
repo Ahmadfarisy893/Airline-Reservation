@@ -128,19 +128,43 @@
 
               <form id="formAuthentication" class="mb-3" action="forgot_auth.php" method="POST">
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email or Username</label>
+                <label for="nama" class="form-label">nama</label>
                   <input
                     type="text"
                     class="form-control"
-                    id="email"
-                    name="email-username"
-                    placeholder="Enter your email or username"
+                    id="nama"
+                    name="nama"
+                    placeholder="Enter your nama"
                     autofocus
                   />
                 </div>
                 
                 <div class="mb-3">
-                  <button class="btn btn-primary d-grid w-100" type="submit">Sent</button>
+                <label for="email" class="form-label">Email</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    autofocus
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="password" class="form-label">New password</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    autofocus
+                  />
+                </div>
+                
+                <div class="mb-3">
+                  <button class="btn btn-primary d-grid w-100" type="submit" name="simpan">Sent</button>
                 </div>
               </form>
             </div>
