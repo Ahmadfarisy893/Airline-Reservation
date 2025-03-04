@@ -48,7 +48,7 @@ navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
             <div class="dropdown-divider"></div>
           </li>
           <li>
-            <a class="dropdown-item" href="#">
+            <a class="dropdown-item" href="akun.php">
             <i class="bx bx-user me-2"></i>
               <span class="align-middle">My Profile</span>
             </a>
