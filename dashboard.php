@@ -1,4 +1,5 @@
 <?php
+session_start();
 include (".includes/header.php");
 $title = "Dashboard";
 // menyertakan file untuk menampilakn notifikasi (jika ada) 
@@ -62,7 +63,7 @@ include '.includes/toast_notification.php';
                 <div class="card h-100">
                   <img class="card-img-top" src="assets/img/elements/2.jpg" alt="Card image cap" />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Batam</h5>
                         <p class="card-text">
                         Some quick example text to build on the card title and make up the bulk of the card's content.
                         </p>
@@ -74,7 +75,7 @@ include '.includes/toast_notification.php';
                 <div class="card h-100">
                   <img class="card-img-top" src="assets/img/elements/2.jpg" alt="Card image cap" />
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Bali</h5>
                         <p class="card-text">
                         Some quick example text to build on the card title and make up the bulk of the card's content.
                         </p>
