@@ -2,7 +2,7 @@
 session_start();
 
 $nama = $_SESSION["nama"];
-$email = $_SESSION["email"];
+$user = $_SESSION["user"];
 
 $notification = $_SESSION['notification'] ?? null;
 if ('notification') {

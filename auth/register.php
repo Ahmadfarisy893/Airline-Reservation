@@ -132,7 +132,6 @@
                   <input
                     type="text"
                     class="form-control"
-                    id="nama"
                     name="nama"
                     placeholder="Enter your name"
                     autofocus
@@ -140,14 +139,13 @@
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" />
+                  <input type="text" class="form-control" name="email" placeholder="Enter your email" />
                 </div>
                 <div class="mb-3 form-password-toggle">
                   <label class="form-label" for="password">Password</label>
                   <div class="input-group input-group-merge">
                     <input
                       type="password"
-                      id="password"
                       class="form-control"
                       name="password"
                       placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
@@ -158,7 +156,7 @@
                 </div>
 
               
-                <button class="btn btn-primary d-grid w-100">Sign up</button>
+                <button class="btn btn-primary d-grid w-100" type="submit" name="submit_register">Sign up</button>
               </form>
               
               <p class="text-center">

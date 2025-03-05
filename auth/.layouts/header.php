@@ -4,8 +4,15 @@ session_start();
 $notification = $_SESSION['notification'] ?? null;
 if ($notification) {
   unset($_SESSION['notification']);
-} 
+}
 
+if (isset($_SESSION["nama"]) || isset($_SESSION["user"])) {
+  $_SESSION['notification'] = [
+    'type' => 'danger',
+    'message' => 'Silakan loguot terlebih dahulu'
+  ];
+  header('location: ../dashboard.php');
+} 
 
 ?>
 
