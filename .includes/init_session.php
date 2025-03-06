@@ -1,9 +1,12 @@
 <?php
-$penumpangId = isset($_SESSION["penumpang_id"]) ? $_SESSION["penumpang_id"] : null;
-$nama = isset($_SESSION["nama"]) ? $_SESSION["nama"] : null;
+session_start();
+
+$nama = $_SESSION["nama"];
+$user = $_SESSION["user"];
 
 $notification = $_SESSION['notification'] ?? null;
-if ($notification) {
+if ('notification') {
     unset($_SESSION['notification']);
 }
+
 ?>

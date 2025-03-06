@@ -145,7 +145,6 @@
                   <div class="input-group input-group-merge">
                     <input
                       type="password"
-                      id="password"
                       class="form-control"
                       name="password"
                       placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
@@ -161,7 +160,7 @@
                   </div>
                 </div>
                 <div class="mb-3">
-                  <button class="btn btn-primary d-grid w-100" type="submit">Sign in</button>
+                  <button class="btn btn-primary d-grid w-100" type="submit" name="submit_login">Sign in</button>
                 </div>
               </form>
 
