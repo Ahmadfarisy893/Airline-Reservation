@@ -118,6 +118,42 @@ include '.includes/toast_notification.php';
                     </div>
                 </div>
               </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="assets/img/penerbangan/timo-wagner-fT6-YkB0nfg-unsplash.jpg" alt="Card image cap" height="500"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Unite Stage of America</h5>
+                        <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                      <a href="javascript:void(0)" class="btn btn-outline-primary">Lihat</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="assets/img/penerbangan/14 Days in Japan_ Japan Golden Route Itinerary For First Timers.png" alt="Card image cap" height="500"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Japan</h5>
+                        <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                      <a href="javascript:void(0)" class="btn btn-outline-primary">Lihat</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100">
+                  <img class="card-img-top" src="assets/img/penerbangan/seoul-tower-red-autumn-maple-leaves-namsan-mountain-south-korea.jpg" alt="Card image cap" height="500"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Korea</h5>
+                        <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                      <a href="javascript:void(0)" class="btn btn-outline-primary">Lihat</a>
+                    </div>
+                </div>
+              </div>
               
             </div>
           </div>
